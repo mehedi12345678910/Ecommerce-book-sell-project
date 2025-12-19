@@ -3,7 +3,8 @@ import { CiStar } from "react-icons/ci"; // Star icon er jonno react-icons use k
 import { Link } from "react-router";
 
 const Book = ({ singleBook }) => {
-  const { bookName, author, image, category, rating, tags,bookId } = singleBook;
+  const { bookName, author, image, category, rating, tags, bookId } =
+    singleBook;
 
   return (
     <Link to={`/bookDetails/${bookId}`}>
